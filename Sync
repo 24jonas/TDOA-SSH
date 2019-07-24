@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git add .
+git commit -m "Recibiendo"
+git pull --no-commit
+git add .
+git commit -m "Mandando"
+git push
