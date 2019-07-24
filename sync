@@ -1,5 +1,5 @@
-#!/bin/sh
-
+#!/bin/bash
+cd /home/pi/Desktop/Jonas/TDOA-DE
 git add .
 git commit -m "Recibiendo"
 git pull --no-commit
