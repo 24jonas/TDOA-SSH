@@ -1,8 +1,8 @@
 #!/bin/bash
 cd /home/pi/Desktop/Jonas/TDOA-DE
-git add .
-git commit -m "Recibiendo"
-git pull --no-commit
-git add .
-git commit -m "Mandando"
-git push
+/usr/local/bin/git add .
+/usr/local/bin/git commit -m "Recibiendo"
+/usr/local/bin/git pull --no-commit
+/usr/local/bin/git add .
+/usr/local/bin/git commit -m "Mandando"
+/usr/local/bin/git push
